@@ -1,7 +1,7 @@
-import ComingSoon from "./pages/ComingSoon";
+import Home from "./pages/Home";
 
 function App() {
-  return <ComingSoon />;
+  return <Home />;
 }
 
 export default App;
