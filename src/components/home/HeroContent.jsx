@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, PlayCircle } from "lucide-react";
 
 import Button from "../common/Button";
-import HeroStats from "./HeroStats";
+import HeroStats from "./Stats";
 import TrustedCompanies from "./TrustedCompanies";
 
 export default function HeroContent() {
@@ -83,7 +83,7 @@ export default function HeroContent() {
       </motion.div>
 
       {/* Statistics */}
-      <HeroStats />
+      <Stats />
 
       {/* Trusted Companies */}
       <TrustedCompanies />
